@@ -1,0 +1,108 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(#1E90FF, #ADD8E6)   
+}
+
+header{
+	padding: 50px 0;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    margin: 6px; 
+
+}
+
+.cabecalho {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;  
+    
+}
+
+.cabecalho_h1{
+    display: inline;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;  
+    background: linear-gradient(#1E90FF, #00BFFF)  
+}
+
+nav{
+	position: absolute;
+	top: 38px;
+	right: 0px;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 7px;
+    text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background: linear-gradient(#1E90FF, #00BFFF)  
+}
+
+nav li:hover{
+    font-size: 22px;
+    color: #4B0082;
+    background: #FFFFFF;
+
+}
+
+main{
+    height: 500px;
+}
+
+form{
+	margin: 40px 0;
+    margin-left: 12px;
+}
+
+form label, form p{
+    display: block;
+    margin:0 0 20px;
+}
+
+.input-padrao{
+	display: block;
+	margin:0 auto;
+	padding:10px 25px;
+	width: 45%;	
+    
+}
+
+.enviar{
+	width: 45%;
+	padding: 15px;
+	color: white;
+	background-color: #008B8B;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 3px;
+	transition: 0.5s all;
+	cursor: pointer;
+}
+
+.enviar:active {
+  background-color: red;
+  border: 4px solid  red;
+  /*box-shadow: 3px 3px 0 #8B0000 inset;*/
+  color: white;
+  outline: none;
+}
+
+.eu{
+    float: right;
+    width: 26%;
+    margin: 0 12% 0 15px;
+    
+}
