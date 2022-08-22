@@ -72,8 +72,8 @@ form label, form p{
 }
 
 .input-padrao{
-	display: block;
-	margin:0 auto;
+	display: inline;
+	margin:0 auto 10px auto;
 	padding:10px 25px;
 	width: 45%;	
     
